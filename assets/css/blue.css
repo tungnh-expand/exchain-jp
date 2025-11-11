@@ -516,7 +516,7 @@ body {
   height: 100px;
   left: -70px;
   top: 0px;
-  background: #F7FAFD;
+  background: #1C46AB;
   transform: rotate(60deg);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -717,7 +717,7 @@ header
 
 .header-area .main-nav .logo {
   float: left;
-  margin-top: 34px;
+  margin-top: 25px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1969,6 +1969,7 @@ team
 
 /* 2. Làm cho khu vực nội dung (chữ) dãn ra để lấp đầy không gian */
 .team-item .team-content {
+  text-align: justify;
   flex-grow: 1;
   /* Quan trọng: Bảo nó lấp đầy không gian trống còn lại */
   display: flex;
@@ -1980,13 +1981,13 @@ team
   margin-bottom: auto;
 }
 
-.team-item:hover .user-image {
+/* .team-item:hover .user-image {
   bottom: -55px;
-}
+} */
 
-.team-item:hover .team-content .team-info:before {
+/* .team-item:hover .team-content .team-info:before {
   height: 125px;
-}
+} */
 
 .team-item:hover .team-content .social li a {
   color: #fff;
@@ -2013,13 +2014,14 @@ team
 }
 
 .team-item .team-content {
-  text-align: center;
+  text-align: justify;
   overflow: hidden;
 }
 
 .team-item .team-content .team-info {
+  text-align: center;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -2031,7 +2033,7 @@ team
   left: 0px;
   right: 0px;
   background-image: linear-gradient(135deg, #1C46AB 0%, #5C83E3 100%);
-  height: 68px;
+  height: 80px;
   z-index: 1;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -2099,7 +2101,7 @@ team
 .team-item .team-content p {
   padding-left: 25px;
   padding-right: 25px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   font-weight: 400;
   font-size: 14px;
   color: #6F8BA4;
@@ -2945,8 +2947,17 @@ pages
 }
 
 .page .page-bottom .about .about-text h2 {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 1.75px;
+  color: #3B566E;
+  margin-bottom: 20px;
+}
+
+.page .page-bottom .about .about-text h3 {
+  font-weight: 600;
+  font-size: 15px;
   line-height: 38px;
   letter-spacing: 1.75px;
   color: #3B566E;

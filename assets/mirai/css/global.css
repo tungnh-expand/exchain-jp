@@ -1,0 +1,49 @@
+.table-custom, th, td {
+    border: 1px solid #dedede;
+    border-collapse: collapse;
+    color: rgb(148 163 184 / 1) !important;;
+}
+
+.table-custom {
+    width: 100%;
+}
+
+.table-custom tr td:first-child, .table-custom th {
+    text-align: center;
+    background-color: #ededed;
+}
+
+.table-custom td, .table-custom th {
+    padding: 1.5rem
+}
+
+.ml-4{
+    margin-left: 1rem !important;
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/bg01\.png\'\)\]{
+    background-image: url('../../assets/images/bg01.png') !important;
+}
+
+@media screen and  (min-width: 1024px){
+    .lg\:max-w-2xl{
+        max-width: 42rem !important;
+    }
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/sum\.png\'\)\]{
+  background-image: url('../../assets/images/sum-fit-2024.png') !important;
+}
+
+.ws-nowrap{
+  white-space: nowrap;
+}
+
+@media screen and  (max-width: 1279px){
+  .ws-nowrap{
+    white-space: unset;
+  }
+}
+
+
+
